@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="usaha.php">
+    <label for="nama">Nama Siswa:</label>
+    <input type="text" id="nama" name="nama">
+
+    <label for="nilai">Usia:</label>
+    <input type="number" id="usia" name="usia">
+
+    <label for="nilai">Nilai:</label>
+    <input type="number" id="nilai" name="nilai">
+
+    
+
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

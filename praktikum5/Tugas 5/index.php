@@ -1,33 +1,33 @@
 <?php
-class Manusia {
-    public $nama;
-    public $umur;
+class Handpone {
+    public $merk;
+    public $variasi;
     
-    public function setNama ($name)
+    public function setMerk ($merk)
     {
-        $this->nama = $name;
+        $this->merk = $merk;
     }
 
-    public function setUmur ($umur)
+    public function setVariasi ($variasi)
     {
-        $this->umur = $umur;
+        $this->variasi = $variasi;
     }
 
     public function getInfo ()
     {
-        return "Nama: " . $this->nama . ", Umur: " . $this->umur;
+        return "Merk: " . $this->merk . ", Variasi: " . $this->variasi;
     }
 }
 
 // Membuat Object
-$fahmi = new Manusia();
-$fahmi->setNama("M FAHMI ROMADHON");
-$fahmi->setUmur(19);
-echo $fahmi->getInfo();
+$redmi = new Handpone();
+$redmi->setMerk("Redmi 12c");
+$redmi->setVariasi("Black");
+echo $redmi->getInfo();
 
 echo "<br>";
 
-$balmon = new Manusia();
-$balmon->setNama("M BALMON");
-$balmon->setUmur(100);
-echo $balmon->getInfo();
+$infinix = new Handpone();
+$infinix->setMerk("Infinix note 30");
+$infinix->setVariasi("Blue");
+echo $infinix->getInfo();
